@@ -2040,4 +2040,12 @@ input, select, textarea {
 		cursor: pointer;
 		border-radius: 4px;
 	  }
+
+	  .section-divider {
+		border: none;
+		height: 2px;
+		background-color: #ccc; /* light gray */
+		margin: 2em 0;
+	  }
+	  
 	  
