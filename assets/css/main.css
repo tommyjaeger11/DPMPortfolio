@@ -2011,3 +2011,33 @@ input, select, textarea {
 				}
 
 	}
+
+
+	#cookie-popup {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.85);
+		color: white;
+		padding: 1em;
+		text-align: center;
+		z-index: 1000;
+		box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+	  }
+	  
+	  #cookie-popup a {
+		color: #00bfff;
+		text-decoration: underline;
+	  }
+	  
+	  #cookie-popup button {
+		margin-top: 0.5em;
+		padding: 0.5em 1em;
+		border: none;
+		background-color: #00bfff;
+		color: white;
+		cursor: pointer;
+		border-radius: 4px;
+	  }
+	  
